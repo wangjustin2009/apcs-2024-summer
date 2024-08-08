@@ -1,0 +1,19 @@
+#include <stdio.h>
+//從鍵盤輸入兩個數，求出其最大值//
+
+int main()
+{
+    int a,b;
+    printf("請輸入第1個數字:");
+    scanf("%d", &a);
+    printf("請輸入第2個數字:");
+    scanf("%d", &b);
+    if (a>b){
+        printf("最大是:%d",a);
+    } else if(a<b){
+        printf("最大是:%d",b);
+    } else {
+        printf("same");
+    }
+    return 0;
+}
