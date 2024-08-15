@@ -1,0 +1,15 @@
+#include <iostream>
+int a(int x){
+    return x/60;
+}
+    
+int main()
+{  
+    int x;
+    printf("輸入總時間(分): \n");
+    scanf(" %d",&x );
+    
+    printf(" 總時間(時)= %d \n",a(x));
+    printf(" 總時間(分)= %d \n",x%60);
+    return 0;
+}
