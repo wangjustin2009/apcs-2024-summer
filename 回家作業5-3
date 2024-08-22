@@ -1,0 +1,22 @@
+#include <iostream>
+//  用陣列實現以下功能：輸入5個學生成績，而後求出這些成績的平均值並顯示出來
+
+int main()
+{
+    
+    int a[5],sum;
+    for(int i=0;i<5;i++){
+        printf("請輸入5個數字,第%d個:",i+1);
+        scanf("%d", &a[i]);
+        sum+=a[i];
+    }
+    
+    for(int i=0;i<5;i++){
+        printf(" %d",a[i]);
+       
+    }
+    printf("\n平均數:%d", sum/5);
+    
+    
+    return 0;
+}
